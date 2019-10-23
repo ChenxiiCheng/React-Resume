@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d56a091c.chunk.css",
+    "main.js": "/static/js/main.6c5c47e3.chunk.js",
+    "main.js.map": "/static/js/main.6c5c47e3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.24bcab21.js",
+    "runtime-main.js.map": "/static/js/runtime-main.24bcab21.js.map",
+    "static/js/2.bdb3cc22.chunk.js": "/static/js/2.bdb3cc22.chunk.js",
+    "static/js/2.bdb3cc22.chunk.js.map": "/static/js/2.bdb3cc22.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.31d53a6941b0a52208351dda5926b54c.js": "/precache-manifest.31d53a6941b0a52208351dda5926b54c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.d56a091c.chunk.css.map": "/static/css/main.d56a091c.chunk.css.map",
+    "static/media/admin-react.png": "/static/media/admin-react.fc67ab97.png",
+    "static/media/admin-vue.png": "/static/media/admin-vue.1eee4c51.png",
+    "static/media/cooking-react.jpeg": "/static/media/cooking-react.ce2cf0b7.jpeg",
+    "static/media/mypic.png": "/static/media/mypic.c11a2ee2.png",
+    "static/media/reddit-vue.png": "/static/media/reddit-vue.d7cbae32.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.24bcab21.js",
+    "static/js/2.bdb3cc22.chunk.js",
+    "static/css/main.d56a091c.chunk.css",
+    "static/js/main.6c5c47e3.chunk.js"
+  ]
+}
