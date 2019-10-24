@@ -2,10 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text');
 
 .home {
-  width: 1000px;
-  margin: 19px 320px;
   padding: 10px;
-  color: pink;
   .info {
     position: relative;
     .ripple-loader {
@@ -107,8 +104,8 @@
         }
         .showEmail {
           display: inline-block;
-          margin-left: 15px;
-          margin-top: 3px;
+          margin-left: 17px;
+          margin-top: 4px;
           font-size: 1rem;
           color: #1d1d1d;
           font-weight: bold;
@@ -116,7 +113,7 @@
       }
       .side-project {
         float: right;
-        margin-right: 65px;
+        margin-right: 60px;
         font-family: 'Courgette', cursive;
         color: #2b2928;
         font-size: 1.3rem;
