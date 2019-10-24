@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.69f38567.chunk.css",
+    "main.css": "/static/css/main.67421a9b.chunk.css",
     "main.js": "/static/js/main.4036494e.chunk.js",
     "main.js.map": "/static/js/main.4036494e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.24bcab21.js",
@@ -8,9 +8,9 @@
     "static/js/2.1a650c92.chunk.js": "/static/js/2.1a650c92.chunk.js",
     "static/js/2.1a650c92.chunk.js.map": "/static/js/2.1a650c92.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c19ae9623f6897ab75504bcd9d78f3b4.js": "/precache-manifest.c19ae9623f6897ab75504bcd9d78f3b4.js",
+    "precache-manifest.e299780afb2b288b4412c21b8607f085.js": "/precache-manifest.e299780afb2b288b4412c21b8607f085.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.69f38567.chunk.css.map": "/static/css/main.69f38567.chunk.css.map",
+    "static/css/main.67421a9b.chunk.css.map": "/static/css/main.67421a9b.chunk.css.map",
     "static/media/admin-react.png": "/static/media/admin-react.fc67ab97.png",
     "static/media/admin-vue.png": "/static/media/admin-vue.1eee4c51.png",
     "static/media/cooking-react.jpeg": "/static/media/cooking-react.ce2cf0b7.jpeg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.24bcab21.js",
     "static/js/2.1a650c92.chunk.js",
-    "static/css/main.69f38567.chunk.css",
+    "static/css/main.67421a9b.chunk.css",
     "static/js/main.4036494e.chunk.js"
   ]
 }
