@@ -124,7 +124,7 @@ class Header extends Component {
               </div>
               <div className="card">
                 <a
-                  href="https://admin-vue.herokuapp.com"
+                  href="https://chenxiicheng.github.io/Vue-Admin"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
