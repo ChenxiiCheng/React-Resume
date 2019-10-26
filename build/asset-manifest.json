@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "./static/css/main.b7085cae.chunk.css",
-    "main.js": "./static/js/main.b90ae97b.chunk.js",
-    "main.js.map": "./static/js/main.b90ae97b.chunk.js.map",
+    "main.js": "./static/js/main.fa55d326.chunk.js",
+    "main.js.map": "./static/js/main.fa55d326.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.23f2bf2c.js",
     "runtime-main.js.map": "./static/js/runtime-main.23f2bf2c.js.map",
     "static/js/2.232432de.chunk.js": "./static/js/2.232432de.chunk.js",
     "static/js/2.232432de.chunk.js.map": "./static/js/2.232432de.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.73d0c9b2f70cbee7073c903c10415509.js": "./precache-manifest.73d0c9b2f70cbee7073c903c10415509.js",
+    "precache-manifest.3d2251c04da8e8bf4881a83143f95038.js": "./precache-manifest.3d2251c04da8e8bf4881a83143f95038.js",
     "service-worker.js": "./service-worker.js",
     "static/css/main.b7085cae.chunk.css.map": "./static/css/main.b7085cae.chunk.css.map",
     "static/media/admin-react.png": "./static/media/admin-react.fc67ab97.png",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.23f2bf2c.js",
     "static/js/2.232432de.chunk.js",
     "static/css/main.b7085cae.chunk.css",
-    "static/js/main.b90ae97b.chunk.js"
+    "static/js/main.fa55d326.chunk.js"
   ]
 }
