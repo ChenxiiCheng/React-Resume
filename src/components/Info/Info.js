@@ -115,7 +115,7 @@ class Header extends Component {
             <div className="card-list">
               <div className="card">
                 <a
-                  href="https://cooking-react.herokuapp.com"
+                  href="https://cooking.chenxii.xyz"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

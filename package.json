@@ -2,7 +2,7 @@
   "name": "react-resume",
   "version": "0.1.0",
   "private": true,
-  "home": "https://chenxiicheng.github.io/Resume-React",
+  "homepage": "./",
   "dependencies": {
     "node-sass": "^4.12.0",
     "react": "^16.11.0",
