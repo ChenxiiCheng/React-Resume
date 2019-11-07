@@ -5,6 +5,8 @@ import adminvueUrl from '../../images/admin-vue.png';
 import redditUrl from '../../images/reddit-vue.png';
 import adminreactUrl from '../../images/admin-react.png';
 import myPic from '../../images/mypic.png';
+import wait4 from '../../images/wait4.png';
+import wait2 from '../../images/wait2.jpg';
 import './style.scss';
 
 class Header extends Component {
@@ -150,20 +152,10 @@ class Header extends Component {
                 </a>
               </div>
               <div className="card">
-                <a href="/" target="_blank" rel="noopener noreferrer">
-                  <img
-                    src="https://assets.leetcode.com/static_assets/marketing/concurrency_banner.png"
-                    alt=""
-                  />
-                </a>
+                <img src={wait2} alt="" />
               </div>
               <div className="card">
-                <a href="/" target="_blank" rel="noopener noreferrer">
-                  <img
-                    src="https://assets.leetcode.com/static_assets/marketing/concurrency_banner.png"
-                    alt=""
-                  />
-                </a>
+                <img src={wait4} alt="" />
               </div>
             </div>
           </div>
