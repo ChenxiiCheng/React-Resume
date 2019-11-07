@@ -39,7 +39,7 @@ class Header extends Component {
                 </a>
               </div>
             )}
-            <h1 className="name">I'm Chenxi Cheng</h1>
+            <h1 className="name">Hi, I'm Chenxi Cheng</h1>
             <div className="text">
               <span className="based">I'm a New York based </span>
               <span className="position-title">
