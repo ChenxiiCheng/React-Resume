@@ -126,7 +126,7 @@ class Header extends Component {
               </div>
               <div className="card">
                 <a
-                  href="https://chenxiicheng.github.io/Vue-Admin"
+                  href="https://admin.chenxii.xyz"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -135,7 +135,7 @@ class Header extends Component {
               </div>
               <div className="card">
                 <a
-                  href="https://cnode-vue.herokuapp.com"
+                  href="https://reddit.chenxii.xyz"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -144,7 +144,7 @@ class Header extends Component {
               </div>
               <div className="card">
                 <a
-                  href="https://admin-manager-react.herokuapp.com"
+                  href="https://cms.chenxii.xyz"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
