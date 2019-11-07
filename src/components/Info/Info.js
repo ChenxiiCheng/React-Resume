@@ -9,7 +9,7 @@ import './style.scss';
 
 class Header extends Component {
   state = {
-    showAvatar: false,
+    showAvatar: true,
     showEmail: false
   };
   render() {
