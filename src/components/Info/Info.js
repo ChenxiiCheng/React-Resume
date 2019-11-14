@@ -7,6 +7,8 @@ import adminreactUrl from '../../images/admin-react.png';
 import myPic from '../../images/mypic.png';
 import wait4 from '../../images/wait4.png';
 import wait2 from '../../images/wait2.jpg';
+import real_estate_1 from '../../images/real_estate_1.png';
+import real_estate_2 from '../../images/real_estate_2.png';
 import './style.scss';
 
 class Header extends Component {
@@ -126,13 +128,14 @@ class Header extends Component {
               </div>
               <div className="card">
                 <a
-                  href="https://admin.chenxii.xyz"
+                  href="http://real-estate.chenxii.xyz"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={adminvueUrl} alt="" />
+                  <img src={real_estate_2} alt="" />
                 </a>
               </div>
+
               <div className="card">
                 <a
                   href="https://reddit.chenxii.xyz"
@@ -151,11 +154,19 @@ class Header extends Component {
                   <img src={adminreactUrl} alt="" />
                 </a>
               </div>
+              
+              <div className="card">
+                <a
+                  href="https://admin.chenxii.xyz"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={adminvueUrl} alt="" />
+                </a>
+              </div>
+
               <div className="card">
                 <img src={wait2} alt="" />
-              </div>
-              <div className="card">
-                <img src={wait4} alt="" />
               </div>
             </div>
           </div>
