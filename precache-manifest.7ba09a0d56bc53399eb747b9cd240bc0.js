@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "801ad35f3807acc067d7c0129e79919d",
+    "revision": "d037b63ce465763e16cca8a1a69ca63f",
     "url": "./index.html"
   },
   {
-    "revision": "35e6257686bb269f3245",
-    "url": "./static/css/main.e72c28b8.chunk.css"
+    "revision": "2880cb2a0b5235e5d8ba",
+    "url": "./static/css/main.ff24b9d9.chunk.css"
   },
   {
-    "revision": "4fd66e99e5b6747af557",
-    "url": "./static/js/2.ccf1df6f.chunk.js"
+    "revision": "030d6af3b579103ad494",
+    "url": "./static/js/2.d4aff774.chunk.js"
   },
   {
-    "revision": "35e6257686bb269f3245",
-    "url": "./static/js/main.02f577a4.chunk.js"
+    "revision": "2880cb2a0b5235e5d8ba",
+    "url": "./static/js/main.73778864.chunk.js"
   },
   {
     "revision": "f128c6a4cb0729bc255d",
@@ -34,6 +34,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c11a2ee26983538e7c56f7d9d6d4afb0",
     "url": "./static/media/mypic.c11a2ee2.png"
+  },
+  {
+    "revision": "83dc0a8e98b97599d19240c6341de89e",
+    "url": "./static/media/real_estate_1.83dc0a8e.png"
+  },
+  {
+    "revision": "a5994502790dd5c280467aafd63d6e47",
+    "url": "./static/media/real_estate_2.a5994502.png"
   },
   {
     "revision": "d7cbae32f0debaa4f55fa3bed5b5d5b4",
