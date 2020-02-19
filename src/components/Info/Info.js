@@ -1,14 +1,13 @@
 import React, { Component, Fragment } from 'react';
 import ReactRotatinText from 'react-rotating-text';
 import cookingUrl from '../../images/cooking-react.jpeg';
-import adminvueUrl from '../../images/admin-vue.png';
 import redditUrl from '../../images/reddit-vue.png';
 import adminreactUrl from '../../images/admin-react.png';
 import myPic from '../../images/mypic.png';
-import wait4 from '../../images/wait4.png';
-import wait2 from '../../images/wait2.jpg';
-import real_estate_1 from '../../images/real_estate_1.png';
-import real_estate_2 from '../../images/real_estate_2.png';
+import githubUrl from '../../images/github.png';
+import contactUrl from '../../images/contact.png';
+import bootcampUrl from '../../images/bootcamp.jpg';
+
 import './style.scss';
 
 class Header extends Component {
@@ -16,6 +15,7 @@ class Header extends Component {
     showAvatar: true,
     showEmail: false
   };
+
   render() {
     return (
       <Fragment>
@@ -62,12 +62,12 @@ class Header extends Component {
                 <strong>May 2020</strong>. If you have any position please feel
                 free to contact me!
               </p>
-              <p>
+              {/* <p>
                 <ReactRotatinText
                   items={['Do have faith in what you love -- Chenxii']}
                   color={'#f9d5bb'}
                 />
-              </p>
+              </p> */}
             </div>
             <hr />
             <div className="social">
@@ -94,7 +94,7 @@ class Header extends Component {
                   <ion-icon name="list-box" size="large"></ion-icon>
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <span
                   className="email"
                   onClick={() => {
@@ -108,9 +108,9 @@ class Header extends Component {
                 {this.state.showEmail && (
                   <span className="showEmail">chenxic1011@gmail.com</span>
                 )}
-              </li>
+              </li> */}
 
-              <div className="side-project">Side Project</div>
+              <div className="side-project">Side Projects</div>
             </div>
           </div>
 
@@ -119,20 +119,38 @@ class Header extends Component {
             <div className="card-list">
               <div className="card">
                 <a
+                  href="https://github.com/ChenxiiCheng/Bootcamp-Express-Api"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={bootcampUrl} alt="" />
+                </a>
+              </div>
+              <div className="card">
+                <a
+                  href="http://github.chenxii.xyz"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={githubUrl} alt="" />
+                </a>
+              </div>
+              <div className="card">
+                <a
+                  href="http://contact.chenxii.xyz"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={contactUrl} alt="" />
+                </a>
+              </div>
+              <div className="card">
+                <a
                   href="https://cooking.chenxii.xyz"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <img src={cookingUrl} alt="" />
-                </a>
-              </div>
-              <div className="card">
-                <a
-                  href="http://real-estate.chenxii.xyz"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={real_estate_2} alt="" />
                 </a>
               </div>
 
@@ -153,20 +171,6 @@ class Header extends Component {
                 >
                   <img src={adminreactUrl} alt="" />
                 </a>
-              </div>
-              
-              <div className="card">
-                <a
-                  href="https://admin.chenxii.xyz"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={adminvueUrl} alt="" />
-                </a>
-              </div>
-
-              <div className="card">
-                <img src={wait2} alt="" />
               </div>
             </div>
           </div>
