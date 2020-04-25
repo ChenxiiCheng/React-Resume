@@ -1,11 +1,11 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useState } from 'react';
 import ReactRotatinText from 'react-rotating-text';
 import cookingUrl from '../../images/cooking-react.jpeg';
 import redditUrl from '../../images/reddit-vue.png';
 import adminreactUrl from '../../images/admin-react.png';
 import myPic from '../../images/mypic.png';
 import githubUrl from '../../images/github.png';
-import contactUrl from '../../images/contact.png';
+import permissionsAdmin from '../../images/user.png';
 import bootcampUrl from '../../images/bootcamp.jpg';
 import './style.scss';
 
@@ -31,7 +31,7 @@ const Header = () => {
                 items={[
                   'Front End Position',
                   'Full Stack Position',
-                  'Web Designer'
+                  'Web Designer',
                 ]}
               />
             </span>
@@ -65,11 +65,20 @@ const Header = () => {
             </li>
             <li>
               <a
+                href="https://www.yuque.com/dashboard/books"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <ion-icon name="library" size="large"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a
                 href="https://github.com/ChenxiiCheng/Resume/blob/master/Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <ion-icon name="list-box" size="large"></ion-icon>
+                <ion-icon name="document-text" size="large"></ion-icon>
               </a>
             </li>
 
@@ -82,41 +91,13 @@ const Header = () => {
           <div className="card-list">
             <div className="card">
               <a
-                href="https://github.com/ChenxiiCheng/Bootcamp-Express-Api"
+                href="https://github.com/ChenxiiCheng/React-Permissions"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={bootcampUrl} alt="" />
+                <img src={permissionsAdmin} alt="" />
               </a>
             </div>
-            <div className="card">
-              <a
-                href="http://github.chenxii.xyz"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={githubUrl} alt="" />
-              </a>
-            </div>
-            <div className="card">
-              <a
-                href="http://contact.chenxii.xyz"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={contactUrl} alt="" />
-              </a>
-            </div>
-            <div className="card">
-              <a
-                href="https://cooking.chenxii.xyz"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={cookingUrl} alt="" />
-              </a>
-            </div>
-
             <div className="card">
               <a
                 href="https://reddit.chenxii.xyz"
@@ -128,11 +109,38 @@ const Header = () => {
             </div>
             <div className="card">
               <a
+                href="https://cooking.chenxii.xyz"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={cookingUrl} alt="" />
+              </a>
+            </div>
+            <div className="card">
+              <a
+                href="https://github.com/ChenxiiCheng/Bootcamp-Express-Api"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={bootcampUrl} alt="" />
+              </a>
+            </div>
+            <div className="card">
+              <a
                 href="https://cms.chenxii.xyz"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img src={adminreactUrl} alt="" />
+              </a>
+            </div>
+            <div className="card">
+              <a
+                href="http://github.chenxii.xyz"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={githubUrl} alt="" />
               </a>
             </div>
           </div>

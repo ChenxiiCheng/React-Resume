@@ -2,16 +2,17 @@
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text');
 
 .home {
+  // margin: 50px auto auto auto;
+  width: 1030px;
   padding: 10px;
-  background: white;
   .info {
     position: relative;
     .avatar {
       float: right;
       margin-right: 59px;
       img {
-        width: 93px;
-        height: 88px;
+        width: 94px;
+        height: 90px;
         border-radius: 12px;
         box-shadow: 0 3px 13px rgba(0, 0, 0, 0.15);
       }
