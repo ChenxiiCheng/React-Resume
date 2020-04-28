@@ -1,12 +1,12 @@
-import React, { Fragment, useState } from 'react';
+import React, { Fragment } from 'react';
 import ReactRotatinText from 'react-rotating-text';
 import cookingUrl from '../../images/cooking-react.jpeg';
 import redditUrl from '../../images/reddit-vue.png';
 import adminreactUrl from '../../images/admin-react.png';
 import myPic from '../../images/mypic.png';
-import githubUrl from '../../images/github.png';
 import permissionsAdmin from '../../images/user.png';
 import bootcampUrl from '../../images/bootcamp.jpg';
+import platformSystem from '../../images/plat.png';
 import './style.scss';
 
 const Header = () => {
@@ -91,11 +91,20 @@ const Header = () => {
           <div className="card-list">
             <div className="card">
               <a
+                href="https://chenxiicheng.github.io/Management-Platform"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={platformSystem} alt="platform" />
+              </a>
+            </div>
+            <div className="card">
+              <a
                 href="https://github.com/ChenxiiCheng/React-Permissions"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={permissionsAdmin} alt="" />
+                <img src={permissionsAdmin} alt="permission system" />
               </a>
             </div>
             <div className="card">
@@ -104,7 +113,7 @@ const Header = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={redditUrl} alt="" />
+                <img src={redditUrl} alt="reddit" />
               </a>
             </div>
             <div className="card">
@@ -113,16 +122,7 @@ const Header = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={cookingUrl} alt="" />
-              </a>
-            </div>
-            <div className="card">
-              <a
-                href="https://github.com/ChenxiiCheng/Bootcamp-Express-Api"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={bootcampUrl} alt="" />
+                <img src={cookingUrl} alt="cooking" />
               </a>
             </div>
             <div className="card">
@@ -131,16 +131,16 @@ const Header = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={adminreactUrl} alt="" />
+                <img src={adminreactUrl} alt="cms" />
               </a>
             </div>
             <div className="card">
               <a
-                href="http://github.chenxii.xyz"
+                href="https://github.com/ChenxiiCheng/Bootcamp-Express-Api"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={githubUrl} alt="" />
+                <img src={bootcampUrl} alt="bootcamp" />
               </a>
             </div>
           </div>
