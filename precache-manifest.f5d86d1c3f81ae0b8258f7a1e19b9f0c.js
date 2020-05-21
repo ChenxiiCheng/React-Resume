@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6559f4d8e4069014c9d286cd00fed685",
+    "revision": "86158434ffc2bf0d3446c3026a9208b7",
     "url": "./index.html"
   },
   {
-    "revision": "cfc0f51cb1c1113c3540",
+    "revision": "86cbb2cd7988a47df1ef",
     "url": "./static/css/main.d56ae52b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.3d11d6cc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cfc0f51cb1c1113c3540",
-    "url": "./static/js/main.0bd19be9.chunk.js"
+    "revision": "86cbb2cd7988a47df1ef",
+    "url": "./static/js/main.bfe8dc3a.chunk.js"
   },
   {
     "revision": "6d0de157e845ca9c70f8",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ce2cf0b7468692f07b6ad49d871fc8a3",
     "url": "./static/media/cooking-react.ce2cf0b7.jpeg"
+  },
+  {
+    "revision": "827dcdb1fa748c00a6aed3c85408080d",
+    "url": "./static/media/home1.827dcdb1.png"
   },
   {
     "revision": "c11a2ee26983538e7c56f7d9d6d4afb0",
