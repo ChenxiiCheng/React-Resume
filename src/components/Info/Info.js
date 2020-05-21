@@ -7,6 +7,7 @@ import myPic from '../../images/mypic.png';
 import permissionsAdmin from '../../images/user.png';
 import bootcampUrl from '../../images/bootcamp.jpg';
 import platformSystem from '../../images/plat.png';
+import insuOffiWebsite from '../../images/home1.png';
 import './style.scss';
 
 const Header = () => {
@@ -39,8 +40,8 @@ const Header = () => {
               Hi, I am currently a master student majoring in Computer
               Engineering at NYU. I'm interested in <strong>Front End</strong>{' '}
               and <strong>Full Stack Web</strong> development. I am looking for
-              a <strong>Full Time</strong> position now and I will graduate in
-              May 2020. If you have any position please feel free to contact me!
+              a <strong>Full Time</strong> position now and I graduate in May
+              2020. If you have any position please feel free to contact me!
             </p>
           </div>
           <hr />
@@ -91,20 +92,20 @@ const Header = () => {
           <div className="card-list">
             <div className="card">
               <a
-                href="https://chenxiicheng.github.io/Management-Platform"
+                href="https://insurance.chenxii.xyz"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={platformSystem} alt="platform" />
+                <img src={insuOffiWebsite} alt="platform" />
               </a>
             </div>
             <div className="card">
               <a
-                href="https://github.com/ChenxiiCheng/React-Permissions"
+                href="http://172.81.242.65:3000/#/login"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={permissionsAdmin} alt="permission system" />
+                <img src={platformSystem} alt="platform" />
               </a>
             </div>
             <div className="card">
@@ -114,6 +115,15 @@ const Header = () => {
                 rel="noopener noreferrer"
               >
                 <img src={redditUrl} alt="reddit" />
+              </a>
+            </div>
+            <div className="card">
+              <a
+                href="https://github.com/ChenxiiCheng/React-Permissions"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={permissionsAdmin} alt="permission system" />
               </a>
             </div>
             <div className="card">
@@ -134,7 +144,7 @@ const Header = () => {
                 <img src={adminreactUrl} alt="cms" />
               </a>
             </div>
-            <div className="card">
+            {/* <div className="card">
               <a
                 href="https://github.com/ChenxiiCheng/Bootcamp-Express-Api"
                 target="_blank"
@@ -142,7 +152,7 @@ const Header = () => {
               >
                 <img src={bootcampUrl} alt="bootcamp" />
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
